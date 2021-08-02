@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  user-select: none;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#app ul {
+  list-style: none;
+  padding: 20px 10px;
+  background: #edf0f5;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#app ul img {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#app ul li {
+  margin: 10px 0;
+  width: 300px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#app ul li i {
+  height: 35px;
+  width: 35px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+#app ul li h4 {
+  margin-left: 5px;
+}
+#app ul button {
+  height: 40px;
+  width: 170px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.5s;
+}
+#app ul button i {
+  margin-right: 5px;
+}
+#app .male img {
+  box-shadow: 0 0 2px 4px #38b8d0;
+}
+#app .male li i {
+  background: #38b8d0;
+}
+#app .male button {
+  background: #38b8d0;
+}
+#app .male button:hover {
+  background: #2f98aa;
+}
+#app .female img {
+  box-shadow: 0 0 2px 4px #ff0066;
+}
+#app .female li i {
+  background: #ff0066;
+}
+#app .female button {
+  background: #ff0066;
+}
+#app .female button:hover {
+  background: #ca0252;
+}
